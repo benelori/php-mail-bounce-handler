@@ -1,5 +1,5 @@
 {
-  "name": "galata90/php-mail-bounce-handler",
+  "name": "benelori/php-mail-bounce-handler",
   "type": "library",
   "description": "PHP class to help webmasters handle bounce-back, feedback loop and ARF mails in standard DSN (Delivery Status Notification, RFC-1894).",
   "keywords": ["php", "mail", "bounce", "dsn", "arf"],
