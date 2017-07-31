@@ -164,7 +164,7 @@ class Handler
      *
      * @var array
      */
-    private $emlFiles;
+    protected $emlFiles;
 
     /**
      * Control the move mode.
@@ -1276,4 +1276,19 @@ class Handler
     {
         return $this->showProgress;
     }
+
+    /**
+     * @return array
+     */
+    public function getEmlFiles() {
+      return $this->emlFiles;
+    }
+
+    /**
+     * @param array $emlFiles
+     */
+    public function setEmlFiles($emlFiles) {
+      $this->emlFiles = $emlFiles;
+    }
+
 }
